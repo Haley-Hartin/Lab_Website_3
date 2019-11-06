@@ -196,9 +196,9 @@ app.get('/player_info', function(req,res) {
     req.flash('error', err);
     res.render('pages/player_info', {
       my_title: 'Player Info',
-      player_info: '',
-      player_data: '',
-      player_games: ''
+      p_info: '',
+      p_data: '',
+      p_games: ''
     })
   })
 });
